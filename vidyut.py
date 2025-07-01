@@ -73,7 +73,7 @@ Owners_Signature = input(r"Enter owner's signature file path: ")
 Manufacturer_Signature = input(r"Enter manufacturer's signature file path: ")
 how_many_form = int(input("How many forms?: "))
 print(f" You mean {how_many_form} registration to be filled...")
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="API-KEY")
 
 def extract_captcha():
     with open("Captcha.png", "rb") as image_file:
